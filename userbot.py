@@ -3,6 +3,9 @@ import os
 from datetime import datetime, timedelta
 from pyrogram import Client
 import anthropic
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # === SOZLAMALAR ===
 API_ID = 39769373
